@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Resource Hub</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Study HUB</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#categories-section">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="container-fluid my-5">
+        <h1 class="text-center">Welcome to the Study Resource Hub</h1>
+        <div id="introduction" class="mt-4">
+            <h2>Introduction</h2>
+            <p>This hub provides educational resources across various topics to help you learn and grow.</p>
+        </div>
+    </section>
+
+
+    <div id="featured" class="container mt-4">
+        <h2 class="text-secondary">Featured Resources</h2>
+        <p>Check out some of the most popular resources in our collection.</p>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mt-4 shadow-sm">
+                    <img src="./images/smm.jfif" class="card-img-top" >
+                    <div class="card-body">
+                        <h5 class="card-title">Social Media Manager</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis hic illo quod recusandae eius nisi veritatis numquam, beatae, ut autem reiciendis quae in saepe quis animi! Pariatur cupiditate optio nemo repellat dolorum nostrum magnam vero laboriosam facilis, natus totam non ad quaerat quisquam esse, eius consequuntur saepe accusantium libero consectetur?.</p>
+                        <a href="#" class="btn btn-success">Discover</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mt-4 shadow-sm">
+                    <img src="./images/infotech.jpg.crdownload" class="card-img-top" >
+                    <div class="card-body">
+                        <h5 class="card-title">Information Tech</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia accusamus minus in nostrum accusantium dolorum, iusto dolore vel tenetur harum velit sapiente reprehenderit neque eos animi odio culpa necessitatibus eaque quos repellat iure voluptates? Porro dolores quas illo expedita animi consectetur eum adipisci voluptas repudiandae.
+                        </p>
+                        <a href="#" class="btn btn-success">Explore More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Categories Section -->
+    <section id="categories-section" class="container my-5">
+        <h2>Categories</h2>
+        <div id="categories" class="row">
+            <ul class="list-group col-md-6">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Social Media Manager
+                    <a href="#" class="btn btn-primary btn-sm">View Resources</a>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Information Technology
+                    <a href="#" class="btn btn-primary btn-sm">View Resources</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact-section" class="container my-5">
+        <h2>Contact Us</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div id="contact-form">
+                    <h3>Fill Up the Form</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div id="location">
+                    <h3>Our Location</h3>
+                    <p>
+                        <strong>Phone:</strong> (123) 456-7890<br>
+                        <strong>Email:</strong> contact@example.com
+                    </p>
+                    <div id="map" style="width: 100%; height: 300px; margin-top: 20px;">
+                        <img src="./images/map.PNG" 
+                                width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></img>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="end" class="container  text-center pt-3 mb-5">
+        <h2 class="text-primary">Join Our Community</h2>
+        <p>Be part of a growing community of learners and enthusiasts!</p>
+    </section>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
